@@ -74,13 +74,27 @@ shape (hero = landscape, gallery = portrait). Re-optimize with
 
 ---
 
+## Repo & hosting
+
+Private repo: <https://github.com/Kassandra-Rodriguez/best-airr-demo>
+
+GitHub Pages will NOT serve a private repo on the free plan. To get a public
+preview link while keeping the repo private, connect it to **Cloudflare Pages**
+(or Netlify) — free, works with private repos:
+
+1. dash.cloudflare.com → Workers & Pages → Create → Pages → **Connect to Git**
+2. Authorize Cloudflare for GitHub, pick `best-airr-demo`
+3. Framework preset: **None** · Build command: *(blank)* · Output directory: `/`
+4. Deploy → you get `best-airr-demo.pages.dev` (rename the project first if you
+   want a less demo-ish URL, e.g. `bestairr-el-paso`)
+
+Every `git push` to `main` redeploys automatically.
+
 ## Before you send it
 
-1. Drop 4 real photos into `assets/` and swap the gradient panels.
-2. Confirm hours; delete the `(confirm hours)` flag.
-3. Deploy to a temp URL (Netlify drop / GitHub Pages). Name it something like
-   `bestairr-preview.netlify.app` — not a domain that looks official.
-4. Open it on your phone first. The whole pitch is "your ad clicks come from phones."
+1. Confirm hours; delete the `(confirm hours)` flag in the footer.
+2. Get the real financing APR/terms and update `script.js`.
+3. Open it on your phone first. The whole pitch is "your ad clicks come from phones."
 
 **Talk track:**
 
