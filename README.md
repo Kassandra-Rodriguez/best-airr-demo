@@ -76,19 +76,14 @@ shape (hero = landscape, gallery = portrait). Re-optimize with
 
 ## Repo & hosting
 
-Private repo: <https://github.com/Kassandra-Rodriguez/best-airr-demo>
+- Repo (public): <https://github.com/Kassandra-Rodriguez/best-airr-demo>
+- **Live demo: <https://kassandra-rodriguez.github.io/best-airr-demo/>**
 
-GitHub Pages will NOT serve a private repo on the free plan. To get a public
-preview link while keeping the repo private, connect it to **Cloudflare Pages**
-(or Netlify) — free, works with private repos:
+Hosted on GitHub Pages (free; requires the repo to be public). Every `git push`
+to `main` redeploys automatically, usually live within ~1 minute.
 
-1. dash.cloudflare.com → Workers & Pages → Create → Pages → **Connect to Git**
-2. Authorize Cloudflare for GitHub, pick `best-airr-demo`
-3. Framework preset: **None** · Build command: *(blank)* · Output directory: `/`
-4. Deploy → you get `best-airr-demo.pages.dev` (rename the project first if you
-   want a less demo-ish URL, e.g. `bestairr-el-paso`)
-
-Every `git push` to `main` redeploys automatically.
+The page has `<meta name="robots" content="noindex, nofollow">` so it won't be
+indexed as a competing "Best AirR" result.
 
 ## Before you send it
 
